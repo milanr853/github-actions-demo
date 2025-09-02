@@ -18,7 +18,7 @@ export default function Form() {
     <div>
       <form onSubmit={handleSubmit} aria-label="demo-form" className="space-y-4">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium">Name</label>
+          <label htmlFor="" className="block text-sm font-medium">Name</label>
           <input
             id="name"
             name="name"
@@ -40,7 +40,7 @@ export default function Form() {
         <div>
           <label htmlFor="email" className="block text-sm font-medium">Email</label>
           <input
-            id="email"
+            id=""
             name="email"
             value={form.email}
             onChange={handleChange}
